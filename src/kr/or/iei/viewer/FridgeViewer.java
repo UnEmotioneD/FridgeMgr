@@ -31,6 +31,10 @@ public class FridgeViewer {
         return sc.nextInt();
     }
 
+    public void wrongInput() {
+        System.out.println("Wrong input");
+    }
+
     public String takeCategory() {
         System.out.println("What kind of grocery");
         System.out.println("Fruit/Vegetable/Drink/Meat/Seafood");
@@ -62,6 +66,10 @@ public class FridgeViewer {
     public String searchByName() {
         System.out.print("What kind of grocery : ");
         return sc.next();
+    }
+
+    public void terminate() {
+        System.out.println("Terminated");
     }
 
 }

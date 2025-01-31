@@ -24,7 +24,7 @@ public class FridgeController {
             try {
                 choice = viewer.mainMenu(groceryList.size());
             } catch (InputMismatchException e) {
-                System.out.println("Wrong input");
+                viewer.wrongInput();
             }
 
             switch (choice) {
@@ -35,7 +35,10 @@ public class FridgeController {
                 case 5 -> move();
                 case 6 -> checkIce();
                 case 7 -> fix();
-                case 0 -> System.out.println("Terminated");
+                case 0 -> {
+                    terminate();
+                    return;
+                }
             }
         }
     }
@@ -117,6 +120,10 @@ public class FridgeController {
 
     public void fix() {
 
+    }
+
+    public void terminate() {
+        viewer.terminate();
     }
 
 }
