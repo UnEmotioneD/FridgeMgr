@@ -63,4 +63,5 @@ public class FridgeViewer {
         System.out.print("What kind of grocery : ");
         return sc.next();
     }
+
 }
