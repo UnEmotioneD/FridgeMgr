@@ -1,5 +1,3 @@
-/fridgeMgr.iml
-/bin/
-.settings/
 .classpath
 .project
+bin/
