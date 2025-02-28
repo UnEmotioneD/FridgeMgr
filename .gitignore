@@ -1,1 +1,4 @@
 /fridgeMgr.iml
+/bin/
+.settings/
+.classpath
