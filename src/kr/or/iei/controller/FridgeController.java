@@ -1,11 +1,16 @@
 package kr.or.iei.controller;
 
-import kr.or.iei.model.vo.*;
-import kr.or.iei.viewer.FridgeViewer;
-
 import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.Scanner;
+
+import kr.or.iei.model.vo.Drink;
+import kr.or.iei.model.vo.Fruit;
+import kr.or.iei.model.vo.Grocery;
+import kr.or.iei.model.vo.Meat;
+import kr.or.iei.model.vo.Seafood;
+import kr.or.iei.model.vo.Vegetable;
+import kr.or.iei.viewer.FridgeViewer;
 
 public class FridgeController {
     ArrayList<Grocery> groceryList;
